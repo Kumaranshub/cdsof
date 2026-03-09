@@ -1,8 +1,4 @@
-# ⚡ OLI — FEDERATED DATA INTELLIGENCE & AI-POWERED ANALYTICS PLATFORM
-
-> **ஒளி (Oli)** — Tamil for *Light*. Illuminating the insights hidden in your data.
-> Federated queries. No-code NL insights. Real-time collab. Under $10/mo.
-> Built on your Data Science syllabus — deployable in under 20 hours.
+#OLI — FEDERATED DATA INTELLIGENCE & AI-POWERED ANALYTICS PLATFORM
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.110+-009688?logo=fastapi)](https://fastapi.tiangolo.com)
@@ -65,33 +61,6 @@ flowchart TB
     INFRA --> API
     VDB --> LC
 ```
-
----
-
-## 🎯 Why OLI Wins
-
-| Pain Point | Tableau | Power BI | **OLI** |
-|---|---|---|---|
-| Live data speed | ❌ Slow extracts | ❌ Gateway refresh fails | ✅ Federated DuckDB (instant) |
-| Query language | ❌ Calc field hell | ❌ DAX complexity | ✅ Plain English NL queries |
-| Collaboration | ❌ No co-authoring | ⚠️ Limited | ✅ Real-time WebSocket collab |
-| File bloat | ❌ TWBX sprawl | ❌ PBIX > 1GB | ✅ No files — pure metadata |
-| Embedding | ❌ Expensive add-on | ⚠️ iFrame only | ✅ SDK + JWT, any framework |
-| Base cost | ❌ $70/user/mo | ❌ $10/user/mo | ✅ Free / $29/mo flat |
-
----
-
-## 🧩 Syllabus → Feature Mapping
-
-| Module (Hours) | Skill | OLI Feature |
-|---|---|---|
-| Data Wrangling / SQL / NoSQL (7h) | Pandas, PyMongo, SQLAlchemy | **Auto-Prep Engine** — detect types, nulls, joins |
-| Text Analytics / NLP (7h) | spaCy, HuggingFace Transformers | **NL Query Parser** — English → SQL + sentiment overlays |
-| Model Planning (7h) | scikit-learn, cross-validation | **AutoML Insight Cards** — auto-selects best model per column |
-| ML Pipelines / Dim Reduction (6h) | PCA, UMAP, Pipelines | **Smart Clustering** — auto-segment dashboard drill-downs |
-| GNU Octave / Math Ops (6h) | Matrix ops, FFT, convolution | **Time Series Forecaster** — Octave DSP + Python wrapper |
-| Tableau Basics (4h) | Viz patterns, LOD calcs | **Auto-Chart Suggester** — replaces LOD with DuckDB window fns |
-| Time Series / Contemporary (2h) | ARIMA, seasonal decompose | **Predictive Overlays** — one-click 30/60/90d forecast on any chart |
 
 ---
 
